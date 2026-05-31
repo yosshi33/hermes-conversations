@@ -1,7 +1,8 @@
 # マイAIノート（完全版）— 2026年5月31日 now更新
 
 ## 📚 山田AI知識（完全詳細版）
-**保存場所**: `/workspace/yamada-ai-knowledge-2026.md`（全69行、12KB）
+**保存場所**: `/workspace/yamada-ai-knowledge-2026.md`（全約200行、12KB）
+**最終更新**: 2026年5月31日（最新詳細版を追加）
 
 ### 1. 2026年「AI御三家」の深層と米中デジタル冷戦
 #### AI御三家の立ち位置と裏事情
@@ -87,7 +88,7 @@
 ### 試行履歴
 1. **初回プッシュ試行**: `yosshi33/leon` リポジトリへ `/workspace/yamada-ai-knowledge-2026.md` をプッシュ
 2. **エラー1**: `Write access to repository not granted` (トークン権限不足)
-3. **トークン露出**: 古いトークンをコマンドに直接記載→セキュリティスキャンでブロック
+3. **トークン露出**: `[GITHUB_TOKEN]` をコマンドに直接記載→セキュリティスキャンでブロック
 4. **承認後スタック**: ユーザー承認後もプロセスループ（3分経過、4/60回試行）
 5. **gh CLI不在**: `gh` コマンドがシステムにインストールされていない
 6. **git直接プッシュ**: `git push -u origin master` → `fatal: could not read Username`
